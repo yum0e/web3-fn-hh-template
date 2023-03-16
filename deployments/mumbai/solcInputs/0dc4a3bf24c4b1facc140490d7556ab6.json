@@ -1,0 +1,35 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/examples/GitHubRegistry.sol": {
+      "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.0;\n\ncontract GitHubRegistry {\n  event GitHubIdRegistered(uint256 indexed githubId);\n  error InvalidInputLegnths();\n\n  uint32 public lastUpdated;\n\n  function register(uint256 githubId) external {\n    emit GitHubIdRegistered(githubId);\n  }\n\n  function computeNFTs(uint256[] memory id, string[] memory githubHandles) external {\n    if (id.length != githubHandles.length) {\n      revert InvalidInputLegnths();\n    }\n    lastUpdated = uint32(block.timestamp);\n  }\n\n  function getLastUpdated() external view returns (uint32) {\n    return lastUpdated;\n  }\n}\n"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "address": "0x5a8C159EF8c9D285ACE6083B64Cb608423d37736",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "InvalidInputLegnths",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "githubId",
+          "type": "uint256"
+        }
+      ],
+      "name": "GitHubIdRegistered",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "id",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "githubHandles",
+          "type": "string[]"
+        }
+      ],
+      "name": "computeNFTs",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getLastUpdated",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "lastUpdated",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "githubId",
+          "type": "uint256"
+        }
+      ],
+      "name": "register",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x2d3de0725d2409e0bc7104fb2d61bcc6376d9a9bcf4677dbaf655a6a624f88c1",
+  "receipt": {
+    "to": null,
+    "from": "0x061060a65146b3265C62fC8f3AE977c9B27260fF",
+    "contractAddress": "0x5a8C159EF8c9D285ACE6083B64Cb608423d37736",
+    "transactionIndex": 14,
+    "gasUsed": "243452",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000800000000000000000000100000000004000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000800000000000000080000000000000000000200000000080000000000000000000000000000000000000000000000000004000000000000000040001000000000000000000000000000000100040000000000000000000000000000000000000000000000000000000000000000000100000",
+    "blockHash": "0x71903e7f62ed7301875cd67f55fda3e27c361e180203a55dad85f331925eb354",
+    "transactionHash": "0x2d3de0725d2409e0bc7104fb2d61bcc6376d9a9bcf4677dbaf655a6a624f88c1",
+    "logs": [
+      {
+        "transactionIndex": 14,
+        "blockNumber": 38185686,
+        "transactionHash": "0x2d3de0725d2409e0bc7104fb2d61bcc6376d9a9bcf4677dbaf655a6a624f88c1",
+        "address": "0x0000000000000000000000000000000000001010",
+        "topics": [
+          "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63",
+          "0x0000000000000000000000000000000000000000000000000000000000001010",
+          "0x000000000000000000000000061060a65146b3265c62fc8f3ae977c9b27260ff",
+          "0x000000000000000000000000be188d6641e8b680743a4815dfa0f6208038960f"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000000217d5111e7c400000000000000000000000000000000000000000000000000e5d880c2a788472000000000000000000000000000000000000000000003338a3e7acd7d0aca85e0000000000000000000000000000000000000000000000000e5b7037195a0832000000000000000000000000000000000000000000003338a3e9c4ace1cb249e",
+        "logIndex": 36,
+        "blockHash": "0x71903e7f62ed7301875cd67f55fda3e27c361e180203a55dad85f331925eb354"
+      }
+    ],
+    "blockNumber": 38185686,
+    "cumulativeGasUsed": "3164948",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "0dc4a3bf24c4b1facc140490d7556ab6",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"InvalidInputLegnths\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"githubId\",\"type\":\"uint256\"}],\"name\":\"GitHubIdRegistered\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"id\",\"type\":\"uint256[]\"},{\"internalType\":\"string[]\",\"name\":\"githubHandles\",\"type\":\"string[]\"}],\"name\":\"computeNFTs\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getLastUpdated\",\"outputs\":[{\"internalType\":\"uint32\",\"name\":\"\",\"type\":\"uint32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"lastUpdated\",\"outputs\":[{\"internalType\":\"uint32\",\"name\":\"\",\"type\":\"uint32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"githubId\",\"type\":\"uint256\"}],\"name\":\"register\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/examples/GitHubRegistry.sol\":\"GitHubRegistry\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/examples/GitHubRegistry.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.0;\\n\\ncontract GitHubRegistry {\\n  event GitHubIdRegistered(uint256 indexed githubId);\\n  error InvalidInputLegnths();\\n\\n  uint32 public lastUpdated;\\n\\n  function register(uint256 githubId) external {\\n    emit GitHubIdRegistered(githubId);\\n  }\\n\\n  function computeNFTs(uint256[] memory id, string[] memory githubHandles) external {\\n    if (id.length != githubHandles.length) {\\n      revert InvalidInputLegnths();\\n    }\\n    lastUpdated = uint32(block.timestamp);\\n  }\\n\\n  function getLastUpdated() external view returns (uint32) {\\n    return lastUpdated;\\n  }\\n}\\n\",\"keccak256\":\"0xdbe0ca32618d1e5c5f9acaa9d4630974efe7e0a6ba07a716309bc3443c96e972\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610371806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806378121dd414610051578063bd741b6414610074578063d0b06f5d14610089578063f207564e14610099575b600080fd5b60005463ffffffff165b60405163ffffffff909116815260200160405180910390f35b610087610082366004610269565b6100ac565b005b60005461005b9063ffffffff1681565b6100876100a7366004610322565b6100e7565b80518251146100ce576040516309aaec4760e21b815260040160405180910390fd5b50506000805463ffffffff19164263ffffffff16179055565b60405181907f5be35944de449fec87da42ded3215bde0f4ef7abd77650a81a6564f1466446e490600090a250565b634e487b7160e01b600052604160045260246000fd5b604051601f8201601f1916810167ffffffffffffffff8111828210171561015457610154610115565b604052919050565b600067ffffffffffffffff82111561017657610176610115565b5060051b60200190565b6000601f838184011261019257600080fd5b823560206101a76101a28361015c565b61012b565b82815260059290921b850181019181810190878411156101c657600080fd5b8287015b8481101561025d57803567ffffffffffffffff808211156101eb5760008081fd5b818a0191508a603f8301126102005760008081fd5b8582013560408282111561021657610216610115565b610227828b01601f1916890161012b565b92508183528c8183860101111561023e5760008081fd5b81818501898501375060009082018701528452509183019183016101ca565b50979650505050505050565b6000806040838503121561027c57600080fd5b823567ffffffffffffffff8082111561029457600080fd5b818501915085601f8301126102a857600080fd5b813560206102b86101a28361015c565b82815260059290921b840181019181810190898411156102d757600080fd5b948201945b838610156102f5578535825294820194908201906102dc565b9650508601359250508082111561030b57600080fd5b5061031885828601610180565b9150509250929050565b60006020828403121561033457600080fd5b503591905056fea26469706673582212201ea8e8b01b256b7cdd6d734a551e254372662a212b2414f23794795e16870ff364736f6c63430008110033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c806378121dd414610051578063bd741b6414610074578063d0b06f5d14610089578063f207564e14610099575b600080fd5b60005463ffffffff165b60405163ffffffff909116815260200160405180910390f35b610087610082366004610269565b6100ac565b005b60005461005b9063ffffffff1681565b6100876100a7366004610322565b6100e7565b80518251146100ce576040516309aaec4760e21b815260040160405180910390fd5b50506000805463ffffffff19164263ffffffff16179055565b60405181907f5be35944de449fec87da42ded3215bde0f4ef7abd77650a81a6564f1466446e490600090a250565b634e487b7160e01b600052604160045260246000fd5b604051601f8201601f1916810167ffffffffffffffff8111828210171561015457610154610115565b604052919050565b600067ffffffffffffffff82111561017657610176610115565b5060051b60200190565b6000601f838184011261019257600080fd5b823560206101a76101a28361015c565b61012b565b82815260059290921b850181019181810190878411156101c657600080fd5b8287015b8481101561025d57803567ffffffffffffffff808211156101eb5760008081fd5b818a0191508a603f8301126102005760008081fd5b8582013560408282111561021657610216610115565b610227828b01601f1916890161012b565b92508183528c8183860101111561023e5760008081fd5b81818501898501375060009082018701528452509183019183016101ca565b50979650505050505050565b6000806040838503121561027c57600080fd5b823567ffffffffffffffff8082111561029457600080fd5b818501915085601f8301126102a857600080fd5b813560206102b86101a28361015c565b82815260059290921b840181019181810190898411156102d757600080fd5b948201945b838610156102f5578535825294820194908201906102dc565b9650508601359250508082111561030b57600080fd5b5061031885828601610180565b9150509250929050565b60006020828403121561033457600080fd5b503591905056fea26469706673582212201ea8e8b01b256b7cdd6d734a551e254372662a212b2414f23794795e16870ff364736f6c63430008110033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 9,
+        "contract": "contracts/examples/GitHubRegistry.sol:GitHubRegistry",
+        "label": "lastUpdated",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint32"
+      }
+    ],
+    "types": {
+      "t_uint32": {
+        "encoding": "inplace",
+        "label": "uint32",
+        "numberOfBytes": "4"
+      }
+    }
+  }
+}
